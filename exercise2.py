@@ -1,10 +1,10 @@
 '''
-Even or Odd
+Recursion
 '''
-user_input = input("Enter numbers separated by spaces: ")
-nums = __________(user_input.split())
-evens = []
-for n in nums:
-    if n __________ 2 == 0:
-        evens.append(n)
-print("Even numbers:", evens)
+def factorial(n):
+    if n __________ 1:
+        return 1
+    else:
+        return n __________ factorial(__________)
+
+print(factorial(5))

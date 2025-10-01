@@ -1,15 +1,9 @@
 '''
 While Loops
 '''
-password = "python123"
-attempt = ""
-tries = 0
-
-while attempt __________ password and tries < __________:
-    attempt = input("Enter password: ")
-    tries += 1
-
-if attempt == password:
-    print("Access granted")
-else:
-    print("Too many attempts")
+count = 0
+with open("data.txt", "__________") as file:
+    for __________ in file:
+        if line.strip() __________ "":
+            count += 1
+print("Non-empty lines:", count)

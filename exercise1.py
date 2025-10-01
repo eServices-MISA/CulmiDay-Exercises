@@ -1,9 +1,7 @@
 
 '''
-Medium Numbers
+List Comprehension
 '''
-numbers = [3, 7, 2, 9]
-total = 0
-for num in __________:
-    total __________ num
-print("Total:", total)
+numbers = [12, 5, 9, 21, 14, 7]
+filtered = [n __________ n % 3 == 0 __________ n > 10]
+print(filtered)
