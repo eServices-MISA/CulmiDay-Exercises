@@ -1,9 +1,9 @@
 
 '''
-Adding 2 Numbers
+Medium Numbers
 '''
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-result = __________ + __________
-print("The sum is:", result)
-
+numbers = [3, 7, 2, 9]
+total = 0
+for num in __________:
+    total __________ num
+print("Total:", total)
